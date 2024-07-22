@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- This is the navigation bar -->
+    <nav id="navbar" class="nav">
+      <ul>
+        <li><a href="#welcome-section">Home</a></li>
+        <li><a href="#portfolio-section">Portfolio</a></li>
+        <li><a href="#contact-section">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- This is the home section -->
+    <section id="welcome-section" class="welcome-section">
+      <h1>Miwa Laksmana Anthony</h1>
+      <p>a <span class="auto-type"></span></p>
+    </section>
+    <!-- This is the portfolio section -->
+    <section id="portfolio-section" class="portfolio-section">
+      <div class="portfolio-subsection">
+        <h2>Portfolio</h2>
+        <div class="portfolio-grid">
+          <a href="https://codepen.io/miwalaa/pen/ZEdGZjQ" class="portfolio">
+            <img src="images/survey form.png">
+            <p><span>&lt;</span> Customer 
+            Satisfaction Survey <span>&#47;&gt;</span></p>
+          </a>
+          <a href="https://codepen.io/miwalaa/pen/ExBVPby" class="portfolio">
+            <img src="images/tribute page.png" alt="tribute page">
+            <p><span>&lt;</span> Tribute Page <span>&#47;&gt;</span></p>
+          </a>
+          <a href="https://codepen.io/miwalaa/pen/Bagojwq" class="portfolio">
+            <img src="images/technical documentation.png" alt="technical documentation">
+            <p><span>&lt;</span> Technical Documentation <span>&#47;&gt;</span></p>
+          </a>
+          <a href="https://codepen.io/miwalaa/pen/wvLKMdY" class="portfolio hid">
+          <img src="images/product landing page.png" alt="Product Landing Page">
+            <p><span>&lt;</span> Product Landing Page <span>&#47;&gt;</span></p>
+          </a>
+          <a href="https://codepen.io/miwalaa/pen/KKjdzpV" class="portfolio hid">
+            <img src="images/basic.png">
+            <p><span>&lt;</span> Basic <span>&#47;&gt;</span></p>
+          </a>
+          <a href="https://codepen.io/miwalaa/pen/YzoyqPO" class="portfolio hid">
+          <img src="images/404error.png">
+          <p><span>&lt;</span> 404 Error Page <span>&#47;&gt;</span></p>
+          </a>
+          <a href="https://codepen.io/miwalaa/pen/YzoyqwJ" class="portfolio hid">
+          <img src="images/christmas promo.png">
+          <p><span>&lt;</span> Christmas Promo <span>&#47;&gt;</span></p>
+          </a>
+          <a href="https://codepen.io/miwalaa/details/VwJvaaG" class="portfolio hid">
+          <img src="images/subscribe.png">
+          <p><span>&lt;</span> Subscribe Page <span>&#47;&gt;</span></p>
+          </a>
+          <a href="https://codepen.io/miwalaa/pen/mdZePPv" class="portfolio hid">
+          <img src="images/toasts.png">
+          <p><span>&lt;</span> Toasts <span>&#47;&gt;</span></p>
+          </a>
+          <a href="https://codepen.io/miwalaa" class="btn-show-all" target="_blank">Show all <i class="fas fa-chevron-right"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- This is the contact section -->
+    <section id="contact-section" class="contact-section">
+        <h2>Contact</h2>
+        <!-- Center and row div -->
+        <div class="contact-subsection">
+            <!-- Message me subsection -->
+            <div class="msg-me">
+                <h3>Message Me</h3>
+                <div class="msg-grid">
+                    <input type="text" id="name" placeholder="Name">
+                    <input type="email" id="email" placeholder="Email" required>
+                    <input type="text" id="subject" placeholder="Subject">
+                    <textarea id="comment"></textarea>
+                    <button>Send Message</button>
+                </div>
+            </div>
+            <!-- Contact information subsection -->
+            <div class="contact-me">
+                <h3>Contact Information</h3>
+                <div class="row center">
+                    <div class="icons column">
+                        <img src="https://cdn-icons-png.flaticon.com/256/14667/14667463.png" class="icon" alt="profile icon">
+                        <img src="https://cdn-icons-png.flaticon.com/256/14667/14667905.png" class="icon" alt="location icon">
+                        <img src="https://cdn-icons-png.flaticon.com/256/14667/14667487.png" class="icon" alt="email icon">
+                    </div>
+                    <hr>
+                    <div class="text column">
+                        <p><span class="span-prpl">Name</span> Miwa Laksmana Anthony</p>
+                        <p><span class="span-grn">Location</span> Sukabumi, West Java</p>
+                        <p><span class="span-yllw">Email</span> <a href="">anonimdante79@gmail.com</a></p>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <!-- Social menu -->
+        <div class="contact-links">
+          <a
+            id="profile-link"
+            href="https://github.com/miwalaa"
+            target="_blank"
+            class="contact-details"
+            ><i class="fab fa-github"></i></a
+          >
+          <a
+            href="https://x.com/miwamiwamiwa79"
+            target="_blank"
+            class="contact-details"
+            ><i class="fab fa-twitter"></i></a
+          >
+          <a href="mailto:anonimdante79@gmail.com" class="contact-details"><i class="fa fa-envelope" aria-hidden="true"></i></a
+          >
+        </div>
+    </section>
+    <footer>
+      <p>
+        **This is just a fake portfolio.
+      </p>
+      <p>
+        &copy; Created for
+        <a href="https://www.freecodecamp.com/" target="_blank"
+          >freeCodeCamp <i class="fab fa-free-code-camp"></i
+        ></a>
+      </p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["web developer", "wannabe", "programmer"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+      })
+    </script>
+  </body>
+</html>
