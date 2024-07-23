@@ -173,6 +173,12 @@ h1 {
   color: var(--navyblue);
 }
 
+@media only screen and (max-width: 360px) {
+  .portfolio-section h2 {
+    font-size: 1.5rem;
+  }
+}
+
 .portfolio-section a {
   color: var(--black);
   background-color: var(--white);
@@ -300,6 +306,12 @@ h1 {
   font-weight: bold;
   margin-top: 40px;
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 360px) {
+  .contact-section h2 {
+    font-size: 1.5rem;
+  }
 }
 
 .contact-subsection {
