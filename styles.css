@@ -403,6 +403,9 @@ button:hover {
 }
 
 @media only screen and (max-width: 360px) {
+  .msg-me h3 {
+    font-size: 1rem;
+  }
   .msg-grid {
     width: 85%;
   }
